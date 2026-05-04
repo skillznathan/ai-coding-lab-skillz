@@ -14,6 +14,4 @@ double GradeBook::getHighest() const {
     return 0.0;
 }
 
-int GradeBook::numGrades() const {
-    return 0;
-}
+return grades_.size();
