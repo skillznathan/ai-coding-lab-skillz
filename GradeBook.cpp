@@ -2,7 +2,9 @@
 
 GradeBook::GradeBook() {}
 
-grades_.push_back({assignment, score});
+void GradeBook::addGrade(const std::string& assignment, double score) {
+    grades_.push_back({assignment, score});
+}
 
 double GradeBook::getAverage() const {
     return 0.0;
